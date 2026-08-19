@@ -1,0 +1,20 @@
+
+.venv/
+venv/
+env/
+
+# Файли даних та моделей
+data/processed/*.npy
+data/processed/*.pkl
+models/*.joblib
+models/*.faiss
+models/*.bin
+notebooks/catboost_info/
+
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Секретні файли
+.env
