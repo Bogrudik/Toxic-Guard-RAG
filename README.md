@@ -1,4 +1,4 @@
-# ToxicGuard-RAG 🛡️
+# ToxicGuard-RAG 
 
 **Local AI system for Ukrainian toxic comment moderation with RAG-based explanations.**
 
@@ -220,7 +220,7 @@ Toxic-Guard-RAG/
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## 1. Clone the repository
 
