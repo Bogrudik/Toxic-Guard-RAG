@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 # Кешування моделей
 @st.cache_resource
 def load_artifacts():
-    print("🚀 Завантаження моделей та індексів...")
+    print("Завантаження моделей та індексів...")
     
     config_path = os.path.join("models", "config.json")
     model_path = os.path.join("models", "classifier_model.joblib")
@@ -44,7 +44,7 @@ st.write("Введіть коментар українською, російсь
 text_input = st.text_area("Введіть текст коментаря:", height=100)
 
 # Кнопка запуску
-if st.button("🔍 Проаналізувати"):
+if st.button("Проаналізувати"):
     if not text_input.strip():
         st.warning("Будь ласка, введіть текст перед аналізом.")
     else:
